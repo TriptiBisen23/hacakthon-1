@@ -1,0 +1,93 @@
+ index.html
+
+/* Default settings */
+ {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+}
+
+.container {
+    max-width: 800px; /* Increased max-width for better spacing */
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #ff9900;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+a {
+    text-align: center;
+    color: #666;
+    text-decoration: none;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+footer {
+    text-align: center;
+    color: #999;
+    margin-top: 20px;
+}
+
+
+/* Flexbox for Login and Signup sections */ 
+ .form {
+    display: flex;
+    flex-direction: column;
+} 
+
+/* Grid for organizing Login and Signup sections side by side */
+.form-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.form-table td {
+    padding: 10px;
+    border: 1px solid #ccc;
+} 
+
+
